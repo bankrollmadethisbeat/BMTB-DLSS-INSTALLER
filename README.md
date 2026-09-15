@@ -2,11 +2,9 @@
 
 Unofficial community utility that installs the bundled DLSS 5 files into FiveM.
 
+BMTB does **not** own the DLSS, Streamline, RenoDX, or ReShade files. Credits: RenoDX by shortfuse, ReShade by crosire, FiveM plug-and-play package by Marius PCMR. Not affiliated with NVIDIA, Rockstar Games, Take-Two, Cfx.re, or FiveM.
+
 **BMTB â€” Better Mechanics. Trusted Builds.**
-
-## Official download
-
-**https://github.com/bankrollmadethisbeat/BMTB-DLSS-INSTALLER/releases/latest**
 
 ## Requirements
 
@@ -55,6 +53,12 @@ To replace the DLSS files, drop updated packages next to this folder, run `tools
 ## Version
 
 Bump **only** `<Version>` in `BMTB.FiveMDLSSInstaller.csproj`. The UI, About page, install fingerprint, and updater all read the assembly version. About also shows `Build 100` from `AppConstants.BuildNumber`.
+
+## Official download
+
+**https://github.com/bankrollmadethisbeat/BMTB-DLSS-INSTALLER/releases/latest**
+
+The old `bankrollmadethisbeat313/BMTB-FiveM-DLSS5-Installer` repo is redirect-only and must not be used for downloads.
 
 ## GitHub updates
 
@@ -109,57 +113,3 @@ dist\BMTB_FiveM_DLSS5_Installer.exe
 ```
 
 The EXE is large because the DLSS payload is embedded. That is expected.
-
----
-
-# âš–ï¸ Disclaimer
-
-**BMTB FiveM DLSS 5 Installer is an unofficial community utility.**
-
-This project is **not affiliated with, sponsored by, approved by, or endorsed by**:
-
-- NVIDIA Corporation
-- Rockstar Games
-- Take-Two Interactive
-- Cfx.re
-- FiveM
-
-NVIDIA, GeForce, RTX, DLSS, GTA, Grand Theft Auto, FiveM, ReShade, and other names, technologies, logos, and trademarks belong to their respective owners.
-
-Third-party files, libraries, technologies, and components included with or supported by this utility remain the property of their respective owners and may be subject to their own respective licenses and terms.
-
-BMTB does not claim ownership of third-party technologies distributed or used with the installer.
-
----
-
-# ðŸ“¢ Important Notice
-
-Use of graphics modifications, injected DLLs, ReShade components, or other modifications may be affected by future updates to:
-
-```text
-FiveM
-GTA V
-Windows
-NVIDIA Drivers
-ReShade
-Other Graphics Mods
-```
-
-A configuration that works today may require repair or updates in the future.
-
-BMTB cannot guarantee compatibility with every system or every combination of graphics modifications.
-
----
-
-## Third-party authors and communities
-
-The bundled DLSS 5 payload is built from work by these projects and communities. BMTB packages and automates their plug-and-play layout; it does not replace or claim their authorship.
-
-| Component | Author / project | Links |
-|-----------|------------------|-------|
-| **RenoDX DLSS 5** (experimental DLSS add-on) | **shortfuse** (CLShortFuse) | [RenoDX Discord](https://discord.gg/renodx) Â· [Patreon](https://www.patreon.com/CLShortFuse) |
-| **ReShade** (add-on framework, `dxgi.dll`) | **crosire** | [ReShade Discord](https://discord.com/invite/PrwndfH) Â· [Patreon](https://www.patreon.com/crosire) |
-| **FiveM DLSS 5 plug-and-play packages** | **Marius PCMR** | [Discord](https://discord.gg/9w9JE24TWm) Â· [Patreon](https://www.patreon.com/pcmrmods) |
-| **DLSS / Streamline** (`nvngx_*`, `sl.*` libraries) | **NVIDIA Corporation** | NVIDIA technology â€” not owned by BMTB |
-
-Using RenoDX DLSS 5 and custom DLSS DLLs in FiveM involves DirectX pipeline injection. Some server anti-cheats or server rules may flag modified `.addon64` / `.dll` files. Check your server's modding rules before joining. Do not use these files in official GTA Online.
