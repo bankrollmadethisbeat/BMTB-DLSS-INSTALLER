@@ -37,6 +37,8 @@ Official releases and automatic updates for the BMTB FiveM DLSS 5 Installer.
 
 **BMTB FiveM DLSS 5 Installer** is a free Windows utility designed to make installing the correct DLSS package for FiveM as simple as possible.
 
+BMTB does **not** own the DLSS, Streamline, RenoDX, or ReShade files bundled with this installer. Credits: **RenoDX** by shortfuse, **ReShade** by crosire, FiveM plug-and-play package by **Marius PCMR**, and **NVIDIA** DLSS / Streamline libraries. See [File Ownership and Credits](#-file-ownership-and-credits).
+
 No manually copying DLL files.
 
 No digging through FiveM folders.
@@ -1225,6 +1227,65 @@ New functionality will be delivered through official GitHub Releases.
 - GitHub update checking
 - Premium BMTB interface
 - Offline installation
+
+---
+
+# 🙏 File Ownership and Credits
+
+BMTB does **not** own or claim authorship of the third-party files installed by this utility. They are bundled purely for convenience.
+
+## RenoDX — shortfuse (clshortfuse)
+
+Provides the DLSS add-on used with ReShade.
+
+| File |
+|---|
+| `renodx-dlss.addon64` |
+
+---
+
+## ReShade — crosire
+
+Provides the add-on framework ReShade uses to load DLSS in FiveM.
+
+| File |
+|---|
+| `dxgi.dll` |
+
+---
+
+## FiveM DLSS 5 package — Marius PCMR
+
+Published the FiveM DLSS 5 guide and plug-and-play file packages this installer automates.
+
+| Files |
+|---|
+| `ReShade.ini` |
+| `ReShadePreset.ini` |
+| Preconfigured ReShade / RenoDX settings shipped with the package |
+
+---
+
+## NVIDIA DLSS / Streamline — NVIDIA Corporation
+
+DLSS and Streamline libraries are NVIDIA technology.
+
+| Files |
+|---|
+| `nvngx_dlss.dll` |
+| `nvngx_dlssd.dll` |
+| `nvngx_dlssg.dll` |
+| `nvngx_dlssnr.dll` *(RTX 20 / 30 / 40 or RTX 50 package)* |
+| `sl.common.dll` |
+| `sl.deepdvc.dll` |
+| `sl.dlss.dll` |
+| `sl.dlss_d.dll` |
+| `sl.dlss_g.dll` |
+| `sl.dlss_nr.dll` |
+| `sl.interposer.dll` |
+| `sl.nis.dll` |
+| `sl.pcl.dll` |
+| `sl.reflex.dll` |
 
 ---
 
